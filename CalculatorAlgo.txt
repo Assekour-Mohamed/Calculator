@@ -1,0 +1,15 @@
+algorithme DaysInMonth  
+variables 
+  m,n:entier
+  c:character
+debut 
+  ecrire("enter two numbers")
+  lire(m,n)
+  cas c vaut:
+    "-" : ecrire(m-n)
+    "+" : ecrire(m+n)
+    "*" : ecririe(m*n)
+    "/" : ecrire(m/n)
+  default : ecrire("error")
+    ....
+fin
